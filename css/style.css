@@ -1,0 +1,312 @@
+
+.idc-section {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1250px;
+    margin: 0 auto;
+    min-width: 1250px;
+    position: relative;
+    z-index: 0;
+}
+
+img,
+svg {
+    width: 100%;
+    display: block;
+}
+
+.idc-container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.idc-bg-wrapper[style^="background-image"] {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.idc-bg-wrapper {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    position: absolute;
+    z-index: -1;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.idc-bg-wrapper[style^="background-image"]:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    -webkit-overflow-scrolling: touch;
+    user-select: none;
+    /* standerd */
+    -moz-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    /* firefox specific */
+    -webkit-user-select: none;
+    /* Chrome, Opera and Safari*/
+    -ms-user-select: none;
+    /* IE, ms-edge */
+    overflow-x: hidden;
+}
+
+.idc-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.idc-text-35 {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+}
+.idc-text-20 {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+.idc-text-45 {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 52px;
+    color: #000000;
+}
+/* *************head************ */
+
+.idc-head .idc-container {
+    padding-top: 50px;
+    padding-bottom: 177px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+}
+.idc-logo {
+    width: 369px;
+}
+.idc-head .idc-text {
+    width: 390px;
+    margin-top: 80px;
+}
+/* ************about************ */
+.idc-about .idc-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.idc-about .idc-text-35 > span {
+    font-weight: bold;
+}
+.idc-about .idc-container .idc-text-35:last-child {
+    margin-top: 20px;
+}
+/* *************counts************ */
+.idc-counts .idc-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.idc-counts .idc-text {
+    width: 286px;
+    margin-left: 196px;
+}
+.idc-counts .idc-text:first-child {
+    margin-left: 0;
+}
+/* *************achives************ */
+.idc-achives .idc-container {
+    padding-top: 100px;
+    padding-bottom: 110px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+.idc-achive {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-left: 150px;
+}
+.idc-achive:first-child {
+    margin-left: 0;
+}
+.idc-achive-txt {
+    margin-top: 47px;
+}
+
+/* *************life************ */
+.idc-life .idc-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.idc-swiper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.idc-life .idc-text {
+    width: 778px;
+}
+.idc-life-item {
+    width: 230px;
+    height: 326px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 32px;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.swiper-slide {
+    width: 230px;
+    margin-left: 25px;
+}
+.swiper-slide:first-child {
+    margin-left: 0;
+}
+.idc-swiper-scrollbar {
+    display: none;
+}
+.idc-swiper-scrollbar {
+    width: 275px;
+    height: 10px;
+    border-radius: 50px;
+    margin: 0;
+    bottom: 0;
+    z-index: 5;
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+}
+.swiper-scrollbar-drag {
+    width: 85px;
+    height: 10px;
+    border-radius: 50px;
+    background: #ffffff;
+}
+.idc-life-icon {
+    max-width: 130px;
+}
+.idc-life .idc-text-20 {
+    margin-top: 22px;
+    max-width: 186px;
+}
+/* *************pluses ************ */
+.idc-pluses .idc-container {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.idc-pluses-block {
+    margin-top: 40px;
+}
+.idc-pluses .idc-text {
+    width: 924px;
+}
+.idc-pluse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: calc(50% - 115px);
+    margin-top: 70px;
+}
+.idc-pluse:nth-child(2n) {
+    margin-left: auto;
+}
+
+.idc-pluse-icon {
+    width: 150px;
+    margin-right: 30px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.idc-button-wrapper {
+    margin-top: 150px;
+    text-align: center;
+}
+.idc-button {
+    display: inline-block;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    padding: 12px 62px;
+    background: #ffc800;
+    border-radius: 15px;
+}
+.idc-button:hover {
+    -webkit-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+    background: #000000;
+    color: #ffc800;
+}
+
+/* *************footer ************ */
+.idc-footer .idc-container {
+    padding-bottom: 80px;
+}
+.idc-footer .idc-ps {
+    margin: 0;
+    font-family: "Roboto", Arial;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}

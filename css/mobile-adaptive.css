@@ -1,0 +1,362 @@
+@media (max-width: 1339px) {
+    .idc-section {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .idc-container {
+        max-width: 930px;
+    }
+
+    /* *************head************ */
+    .idc-head .idc-container {
+        padding-top: 40px;
+        padding-bottom: 140px;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: contain;
+    }
+    .idc-head .idc-text {
+        width: 290px;
+    }
+    .idc-logo {
+        width: 275px;
+    }
+
+    /* ************about************ */
+
+    .idc-about .idc-container .idc-text-35:last-child {
+        margin-top: 15px;
+    }
+
+    /* ************counts*********** */
+
+    .idc-counts .idc-text {
+        width: 200px;
+        margin-left: auto;
+    }
+
+    /* *************life************ */
+    .swiper-slide {
+        margin-left: 0;
+    }
+    .idc-swiper-scrollbar {
+        display: block;
+    }
+    /* .idc-life .idc-text {
+        width: 583px;
+    }
+    .idc-swiper {
+        margin-top: 50px;
+    }
+    .swiper-slide {
+        width: 170px;
+        margin-left: 20px;
+    }
+   
+    .swiper-slide:first-child {
+        margin-left: 0;
+    }
+    .idc-life-item {
+        width: 100%;
+        flex-wrap: nowrap;
+        height: 242px;
+        padding-left: 12px;
+        padding-right: 14px;
+        padding-bottom: 23px;
+    }
+    .idc-life .idc-text-20 {
+        font-size: 15px;
+        line-height: 17px;
+        max-width: 138px;
+    }
+    .idc-life-icon {
+        max-width: 85px;
+    } */
+
+    /* *************pluses ************ */
+    .idc-pluses .idc-container {
+        padding-bottom: 50px;
+    }
+
+    .idc-pluses .idc-text {
+        width: 687px;
+    }
+
+    .idc-pluse-icon {
+        width: 120px;
+        height: 120px;
+    }
+
+    .idc-pluses .idc-text-45 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .idc-pluses-block {
+        margin-top: 20px;
+    }
+    .idc-pluse {
+        width: calc(50% - 55px);
+        margin-top: 50px;
+    }
+    .idc-button-wrapper {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 1019px) {
+    .idc-container {
+        max-width: 100%;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    /* *************head************ */
+    .idc-head .idc-container {
+        padding-top: 25px;
+        padding-bottom: 85px;
+    }
+    .idc-logo {
+        width: 170px;
+    }
+    .idc-head .idc-text {
+        width: 191px;
+        margin-top: 40px;
+    }
+
+    /* *************about************ */
+
+    .idc-about .idc-container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .idc-text-35 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    /* *************counts************ */
+
+    .idc-counts .idc-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .idc-counts .idc-text {
+        width: 130px;
+    }
+    /* *************achives************ */
+
+    .idc-achives .idc-container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .idc-achive {
+        width: calc(33% - 45px);
+        margin-left: auto;
+    }
+    /* *************life************ */
+    .idc-life .idc-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .idc-life .idc-text {
+        width: 485px;
+    }
+    .idc-swiper {
+        margin-top: 40px;
+    }
+
+    .swiper-slide {
+        width: unset;
+        margin-left: unset;
+    }
+    .swiper-slide:first-child {
+        margin-left: 0;
+    }
+    .idc-life-item {
+        width: 230px;
+        height: 326px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 32px;
+    }
+    .idc-life-icon {
+        max-width: 120px;
+    }
+    .idc-life .idc-text-20 {
+        font-size: 20px;
+        line-height: 23px;
+        max-width: 185px;
+        margin-top: 35px;
+    }
+    /* *************pluses************ */
+    .idc-pluses .idc-container {
+        padding-bottom: 40px;
+    }
+    .idc-pluses .idc-text {
+        width: 602px;
+    }
+    .idc-pluses-block {
+        margin-top: 15px;
+    }
+    .idc-pluse {
+        width: calc(50% - 25px);
+        margin-top: 25px;
+    }
+    .idc-pluse-icon {
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+    }
+    .idc-pluses .idc-text-45 {
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .idc-button-wrapper {
+        margin-top: 80px;
+    }
+    .idc-button {
+        font-size: 25px;
+        line-height: 29px;
+        padding: 10px 50px;
+    }
+    /* *************footer************ */
+
+    .idc-footer .idc-container {
+        padding-bottom: 40px;
+    }
+}
+@media (max-width: 699px) {
+    .idc-container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* *************head************ */
+    .idc-head .idc-container {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    .idc-logo {
+        width: 26.6vw;
+    }
+    .idc-head .idc-text {
+        width: 28.2vw;
+        margin-top: 20px;
+    }
+
+    /* *************about************ */
+    .idc-about .idc-container {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .idc-text-35 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    /* *************counts************ */
+    .idc-counts .idc-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .idc-counts .idc-text {
+        width: 19vw;
+    }
+    /* *************achives************ */
+    .idc-achives .idc-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .idc-achive {
+        width: 155px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .idc-achive:first-child {
+        margin-top: 0;
+    }
+    .idc-achive-txt {
+        margin-top: 15px;
+    }
+    /* *************life************ */
+    .idc-life .idc-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .idc-life .idc-text {
+        width: 74vw;
+    }
+    .idc-life-icon {
+        max-width: 97px;
+    }
+    .idc-life .idc-text-20 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 20px;
+        max-width: 185px;
+    }
+    .idc-life-item {
+        width: 222px;
+        height: 248px;
+        padding-right: 12px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    .idc-swiper-scrollbar {
+        width: 200px;
+        height: 5px;
+        margin-top: 20px;
+    }
+    .swiper-scrollbar-drag {
+        width: 47px;
+        height: 5px;
+    }
+    /* *************pluses************ */
+    .idc-pluses .idc-container {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .idc-pluses .idc-text {
+        width: 89.4vw;
+    }
+    .idc-pluses-block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .idc-pluse:nth-child(2n) {
+        margin-left: 0;
+    }
+    .idc-pluse {
+        width: 100%;
+    }
+    .idc-pluse-icon {
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+    .idc-pluses .idc-text-45 {
+        /* font-size: 16px;
+        line-height: 18px; */
+        font-size: 5vw;
+        line-height: 5.5vw;
+    }
+    .idc-button-wrapper {
+        margin-top: 50px;
+    }
+    .idc-button {
+        width: 100%;
+    }
+    /* *************footer*********** */
+    .idc-footer .idc-container {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
