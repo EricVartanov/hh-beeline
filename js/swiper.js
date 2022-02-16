@@ -1,42 +1,53 @@
-const breakpoint = window.matchMedia("(min-width:1339px)");
 
-const breakpointChecker = function () {
-    // if larger viewport and multi-row layout needed
-    if (breakpoint.matches === true) {
-        // clean up old instances and inline styles when available
-        if (mySwiper !== undefined) mySwiper.destroy(true, true);
 
-        // or/and do nothing
-        return;
+var Slider = document.querySelector('.idc-swiper'), mySwiper
 
-        // else if a small viewport and single column layout needed
-    } else if (breakpoint.matches === false) {
-        // fire small viewport version of swiper
-        return mySwiper;
-    }
-};
+let InitSwiper = function (slider) {
+    mySwiper = new Swiper(slider, {
+        // Default parameters
+        loop: false,
+        direction: "horizontal",
+        slidesPerView: 5,
+        spaceBetween: 25,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+        touchReleaseOnEdges: true,
+        allowTouchMove: true,
+        /*    grabCursor: true, */
+        watchOverflow: true,
 
-const mySwiper = new Swiper(".idc-swiper", {
-    // Default parameters
-    loop: false,
-    direction: "horizontal",
-    slidesPerView: "auto",
-    spaceBetween: 25,
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                spaceBetween: 10,
+                slidesPerView: "auto",
+            },
+            // when window width is >= 480px
 
-    breakpoints: {
-        // when window width is >= 320px
-        320: {
-            spaceBetween: 10,
+            // when window width is >= 640px
+            700: {
+                spaceBetween: 25,
+                slidesPerView: "auto",
+            },
+            // when window width is >= 1020px
+            1020: {
+                spaceBetween: 20,
+                slidesPerView: "auto",
+
+            },
+            // when window width is >= 1340px
+            1340: {
+                spaceBetween: 25,
+            }
         },
-        // when window width is >= 480px
-      
-        // when window width is >= 640px
-        700: {
-            spaceBetween: 25,
+        scrollbar: {
+            el: ".idc-swiper-scrollbar",
+            draggable: true,
         },
-    },
-    scrollbar: {
-        el: ".idc-swiper-scrollbar",
-        draggable: true,
-    },
-});
+    });
+}
+
+var mySwiper
+if (Slider) InitSwiper(Slider)
+
+

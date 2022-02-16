@@ -36,42 +36,16 @@
     }
 
     /* *************life************ */
+
     .swiper-slide {
         margin-left: 0;
+    }
+    .swiper-slide {
+        width: auto;
     }
     .idc-swiper-scrollbar {
         display: block;
     }
-    /* .idc-life .idc-text {
-        width: 583px;
-    }
-    .idc-swiper {
-        margin-top: 50px;
-    }
-    .swiper-slide {
-        width: 170px;
-        margin-left: 20px;
-    }
-   
-    .swiper-slide:first-child {
-        margin-left: 0;
-    }
-    .idc-life-item {
-        width: 100%;
-        flex-wrap: nowrap;
-        height: 242px;
-        padding-left: 12px;
-        padding-right: 14px;
-        padding-bottom: 23px;
-    }
-    .idc-life .idc-text-20 {
-        font-size: 15px;
-        line-height: 17px;
-        max-width: 138px;
-    }
-    .idc-life-icon {
-        max-width: 85px;
-    } */
 
     /* *************pluses ************ */
     .idc-pluses .idc-container {
@@ -104,9 +78,7 @@
 }
 @media (max-width: 1019px) {
     .idc-container {
-        max-width: 100%;
-        padding-left: 80px;
-        padding-right: 80px;
+        max-width: 610px;
     }
 
     /* *************head************ */
